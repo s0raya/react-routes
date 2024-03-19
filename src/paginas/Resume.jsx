@@ -1,12 +1,10 @@
-import { Link } from 'react-router-dom';
+
 import { studies, experiences } from '../data/resume';
 
 function Resume() {
     return (
         <>
             <h1>Curriculum</h1>
-            <Link to="/">Home</Link>
-            <Link to="/projects">Proyectos</Link>
             <div className="studies">
                 <h2>Estudios:</h2>
                 <ul>

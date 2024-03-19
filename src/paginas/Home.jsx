@@ -6,8 +6,6 @@ function Home() {
         <>
             <nav className='navbar'>
                 <h1>Bienvenido a mi portfolio</h1>
-                <Link to="/projects">Proyectos</Link>
-                <Link to="/resume">CV</Link>
             </nav>
         </>
     )

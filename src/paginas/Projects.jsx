@@ -1,12 +1,10 @@
-import { Link } from 'react-router-dom'
+
 import projects from '../data/projects.js'
 
 function Projects() {
     return (
         <>
             <h1>Projects</h1>
-            <Link to="/">Home</Link>
-            <Link to="/resume">CV</Link>
             <div className="container-projects">
                 <ul id='project-list'>
                     {projects.map(proj => (
