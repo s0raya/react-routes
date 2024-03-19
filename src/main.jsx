@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Root from './routes.jsx'
+import RoutesApp from './Routes.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-      <Root />
+      <RoutesApp />
     </React.StrictMode>
   );

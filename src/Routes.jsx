@@ -1,10 +1,9 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './paginas/Home.jsx';
 import Projects from './paginas/Projects.jsx';
 import Resume from './paginas/Resume.jsx';
 
-function Root() {
+function RoutesApp() {
     return (
         <Router>
             <Routes>
@@ -16,4 +15,4 @@ function Root() {
     )
 }
 
-export default Root;
+export default RoutesApp;
